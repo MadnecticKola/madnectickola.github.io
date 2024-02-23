@@ -1,0 +1,50 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* apply css to the list item of my html page */
+li {
+    display: inline;
+    float: left;
+}
+
+/* apply css to the (a)anchor/link of list item of  page */
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+.square {
+    border-width: 10px;
+    border: black;
+}
+
+/* css use attributes and their values seperated by :  attribute:value*/
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+/*css for the divs*/
+.div1 {
+    width: 600px;
+    height: 300px;
+    border: 1px solid blue;
+}
+
+#roundDivs {
+    border-radius: 25px;
+    border: 2px solid green;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+}
